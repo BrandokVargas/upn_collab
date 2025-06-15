@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UPN COLLAB</string>
+    <string name="des_img">dising_image</string>
+    <string name="iniciar">INGRESAR</string>
+    <string name="register">REGISTRATE</string>
+    <string name="registrate">No estas registrado? Registrate</string>
+    <string name="logueate">Ya estas registrado? Sing In</string>
+    <string name="text_foros_welcome">Que tus intereses no tengan limites !Bievenidos a los Foros UPN COLLAB!</string>
+    <string name="Comentarios"><u>Comentarios</u></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_nav">Open Navegation Drawer</string>
+    <string name="close_nav">Close Navegation Drawer</string>
+</resources>

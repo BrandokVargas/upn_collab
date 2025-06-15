@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-info>
+    <author>
+        <name>Brandok Leoncio Vargas Rios</name>
+        <email>brandok.contact@gmail.com</email>
+    </author>
+    <project>
+        <name>Api Upn Collab</name>
+        <description>Api hecha para un proyecto de la universidad sobre foros.</description>
+        <version>1.0.0</version>
+    </project>
+</project-info>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "770660441651",
+    "project_id": "collabnotification-b6498",
+    "storage_bucket": "collabnotification-b6498.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770660441651:android:892d20210c3ddcf898cd46",
+        "android_client_info": {
+          "package_name": "com.upn_collab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD41VLs1cVm2gR3xxmyqj23ehgM13Qms54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

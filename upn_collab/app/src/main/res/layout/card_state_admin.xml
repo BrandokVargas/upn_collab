@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="15dp"
+    app:cardUseCompatPadding="true"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/card_forums"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/type_forum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tesis"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/type_text_card_forum"
+                android:layout_marginVertical="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Machine Learning"
+                android:textSize="20dp"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="de Juanito Alimaña" />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                app:cardBackgroundColor="@color/upn"
+                app:cardUseCompatPadding="true">
+                <TextView
+                    android:id="@+id/url"
+                    android:layout_width="wrap_content"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="REVISAR URL" />
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/register"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginVertical="20dp"
+                    android:text="14/04/2024" />
+
+                <ImageView
+                    android:id="@+id/iconAccept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/change_accept"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center"
+                    />
+
+                <ImageView
+                    android:id="@+id/iconRefused"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/change_refused"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
