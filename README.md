@@ -18,7 +18,10 @@ UPN Collab es un software diseñado para estudiantes de la Universidad Privada d
 
 ## Capturas
 
-![Login](https://ibb.co/B5NtN1tf)
-![Favoritos](https://ibb.co/xW159XG)
-![Login](https://ibb.co/BVmtMZ56)
+![Login](https://i.ibb.co/pByxymx1/image.png)
+![Favoritos](https://i.ibb.co/GyWPYnk/image.png)
+![Login](https://i.ibb.co/WWQ6Jy4z/image.png)
+
+
+
 
